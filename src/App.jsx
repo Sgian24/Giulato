@@ -1,14 +1,15 @@
-import { Component, useState } from 'react'
 import './App.css'
 import Com from './component.jsx'
+import Home from './Pages/Home.jsx'
+
+
 
 const App = () => {
   
   return (
     <>
-      <Com />
+      <Home />
       <div>
-        <p>Wifey is a gooba</p>
       </div>
     </>
   )

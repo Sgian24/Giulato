@@ -1,0 +1,99 @@
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+
+@font-face {
+    font-family: poppinsRegular;
+    src: url("..//assets//Poppins-Regular.ttf")
+}
+
+@font-face {
+    font-family: scarlett;
+    src: url("..//assets/ScarlettBusiatDemo-9YP92.ttf")
+}
+
+@font-face {
+    font-family: poppinsExtraLight;
+    src: url("..//assets//Poppins-ExtraLight.ttf")
+}
+
+.nav-fluid-container {
+    background-color: #2c2825;
+}
+
+.nav-bar {
+    background-color: #2c2825;
+    height: 17vh;
+}
+
+.navLogo {
+    max-width: 15%;
+}
+
+.nav-link {
+ color: #f5e5d0;
+ font-size: 1.3em;
+ font-family: poppinsRegular
+}
+
+.line {
+ border-bottom: solid 1px #dbcdba;
+ width: 86%;
+}
+
+.home-container {
+ background-color: #2c2825;
+ height: auto;
+ padding-top: 25vh; 
+}
+
+.hero {
+ padding-top: 10em;
+ height: auto;
+ background-image: url('../assets/giulato-home-cover-bckdrp.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: 50% 70%;
+ border: solid 2px #f4e4d0
+}
+
+.logo-dropshadow {
+    height: auto;
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-heading {
+    font-family: scarlett;
+    color: white;
+    font-size: 5.5rem;
+}
+
+.home-paragraph {
+    margin-bottom: 4.5rem;
+    color: white;
+    text-align: center;
+    font-family: poppinsExtraLight;
+    font-style: italic;
+}
+
+.footer {
+    height: 30vh;
+    background-color: #f5e5d0;
+}
+
+.trademark {
+    font-family: poppinsRegular;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.designed {
+    font-style: italic;
+    font-family: poppinsExtraLight;
+    opacity: 0.5;
+}
+
+.footer-logo {
+    max-width: 10rem;
+}
