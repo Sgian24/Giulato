@@ -11,7 +11,7 @@ const redirect = sessionStorage.redirect;
 delete sessionStorage.redirect;
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/Giulato'>
     <App />
   </BrowserRouter>
 )
