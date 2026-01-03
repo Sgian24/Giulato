@@ -1,6 +1,7 @@
 import './App.css'
-import Com from './component.jsx'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from './Pages/Home.jsx'
+import Menu from "./Pages/Menu.jsx"
 
 
 
@@ -8,9 +9,10 @@ const App = () => {
   
   return (
     <>
-      <Home />
-      <div>
-      </div>
+      <Routes>
+        <Route path="/Giulato" element={<Home />} />
+        <Route path="/Giulato/menu" element={<Menu />} />
+      </Routes>
     </>
   )
 }

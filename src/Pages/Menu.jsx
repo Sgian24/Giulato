@@ -4,6 +4,7 @@ const Menu = () => {
     return (
         <>
         <Com />
+        <p>scoop</p>
         </>
     )
 }
