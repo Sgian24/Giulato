@@ -11,9 +11,9 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/Giulato" element={<Home />} />
-        <Route path="/Giulato/menu" element={<Menu />} />
-        <Route path="/Giulato/order" element={<Order />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/order" element={<Order />} />
       </Routes>
     </>
   )
