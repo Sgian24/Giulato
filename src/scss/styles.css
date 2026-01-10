@@ -85,7 +85,7 @@
     margin-bottom: 4.5rem;
     color: white;
     text-align: center;
-    font-family: poppinsExtraLight;
+    font-family: poppinsRegular;
     font-style: italic;
 }
 
@@ -181,7 +181,7 @@
 .menu-paragraph {
     color: white;
     text-align: center;
-    font-family: poppinsThin;
+    font-family: poppinsRegular;
 }
 
 .order-button {
@@ -227,9 +227,9 @@ ul {
 }
 
 .inquire {
-    font-family: poppinsExtraLight;
+    font-family: poppinsRegular;
     font-size: 1.5rem;
-    color: #746c63;
+    color: #f5e5d0;
 }
 
 .order-button:hover {
@@ -255,20 +255,20 @@ ul {
 }
 
 .cart-requirements-paragraph {
-    font-family: poppinsThin;
+    font-family: poppinsRegular;
     color: #f5e5d0;
 }
 
 .cart-heading {
     color: #f5e5d0;
-    font-family: poppinsThin;
+    font-family: poppinsRegular;
     font-style:italic;
     font-weight:bolder;
 }
 
 .cart-li {
     font-size: 1rem;
-    font-family: poppinsThin;
+    font-family: poppinsRegular;
     list-style-type:initial;
 }
 
@@ -506,10 +506,80 @@ a:focus {
     }
 
     .contact-us {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .contact-links-container {
         width: 80% !important;
     }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .contact-us {
+        font-size: 1.3rem;
+    }
+
+
+    .contact-links-container {
+        padding-left: 1rem !important;
+        width: 100% !important;
+    }
+
+    .insta {
+        margin-right: 1rem !important;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .trademark {
+        font-size: 0.6rem;
+    }
+
+    .home-heading {
+        font-size: 2rem;
+    }
+
+    .hero {
+        padding-top: 7em;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    
+   .contact-container {
+    height: 45vw !important;
+   }
+
+   .contact-links-container {
+    padding-left: 1rem !important;
+   }
+
+   .contact-div {
+    width: 25% !important;
+   }
+
+   .contact-us {
+    text-align: center;
+   }
+
+   .order-button {
+    font-size: 1rem;
+   }
+
+
+   .input-container, .input-container-two {
+    flex-direction: column;
+    gap: 0 !important; 
+   }
+
+   .first-name {
+    margin-bottom: 1rem;
+   }
+
+   .guests {
+    margin-bottom: 1rem;
+   }
 }

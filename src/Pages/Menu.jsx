@@ -43,7 +43,7 @@ const Menu = () => {
                         <li>Pistaccio</li>
                         <li>Tiramisu</li>
                         <li>Salted Chocolate Peanut Butter</li>
-                        <li>Tequila Mojito</li>
+                        <li>Stracciatella</li>
                         <li>Bacio</li>
                         <li>Nutella</li>
                     </ul>
@@ -85,7 +85,7 @@ const Menu = () => {
                 </div>
             </div>
             <div className="d-flex flex-column align-items-center" style={{marginBottom:"12vw"}}>
-                <h2 className="inquire mb-5">Inquire today about our seasonal flavours</h2>
+                <h2 className="inquire mb-5 text-center">Inquire today about our seasonal flavours</h2>
                 <Link to="/Order/#cart-re">
                     <button className="order-button btn rounded-4 mb-5" type="button">order now</button>
                 </Link>

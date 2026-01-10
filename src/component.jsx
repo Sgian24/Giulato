@@ -1,16 +1,29 @@
 import GuilatoLogo from ".//assets/Giulato-white.png";
 import Cart from ".//assets/Cart.svg";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect, useRef } from "react";
 
 const Com = () => {
 
+  const location = useLocation();
+  const lastHash = useRef('');
+
   useEffect(() => {
-    const hash = window.location.hash;
-    if (hash) {
-      document.querySelector(hash)?.scrollIntoView();
+    if (location.hash) {
+      lastHash.current = location.hash.slice(1); 
     }
-  }, []);
+
+    if (lastHash.current && document.getElementById(lastHash.current)) {
+      setTimeout(() => {
+        document
+          .getElementById(lastHash.current)
+          ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        lastHash.current = '';
+      }, 100);
+    }
+  }, [location]);
+
+
   
     return (
         <>

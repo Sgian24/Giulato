@@ -63,10 +63,10 @@ const Order = () => {
                     <h1 className="popular-flavors" id="inquire" style={{color:"black"}}>Inquire</h1>
                 </div>
                 <form target="_blank" className="mb-3" action="https://formsubmit.co/info@giulatogelato.com" method="POST">
-                    <div className="d-flex gap-5 mb-3">
+                    <div className="input-container d-flex gap-5 mb-3">
                     <div>
                         <label htmlFor="name" className="form-label">First Name</label>
-                        <input type="text" name="Name" className="form-control" id="name" placeholder="name"/>
+                        <input type="text" name="Name" className="form-control first-name" id="name" placeholder="name" required/>
                     </div>
                     <div>
                         <label htmlFor="last-name" className="form-label">Last Name</label>
@@ -74,21 +74,21 @@ const Order = () => {
                     </div>
                     </div>
                     <label htmlFor="email" className="form-label">Email</label>
-                    <input type="email" name="Email" className="form-control mb-3" id="email" placeholder="email address"/>
+                    <input type="email" name="Email" className="form-control mb-3" id="email" placeholder="email address" required/>
                     <label htmlFor="date" className="form-label">Event Date</label>
-                    <input type="date" name="Date" className="form-control mb-3" id="date" placeholder="surname"/>
-                    <div className="d-flex gap-5 mb-3">
+                    <input type="date" name="Date" className="form-control mb-3" id="date" placeholder="surname" />
+                    <div className="input-container-two d-flex gap-5 mb-3">
                         <div>
                             <label htmlFor="number-of-guests" className="form-label">Number of Guests</label>
-                            <input type="number" name="Number of Guests" className="form-control" id="number-of-guests" placeholder="00"/>
+                            <input type="number" name="Number of Guests" className="form-control guests" id="number-of-guests" placeholder="00" />
                         </div>
                         <div>
                             <label htmlFor="start-time" className="form-label">Start Time</label>
-                            <input type="time" name="Start Time" className="form-control" id="time"/>
+                            <input type="time" name="Start Time" className="form-control guests" id="time" />
                         </div>
                         <div>
                             <label htmlFor="end-time" className="form-label">End Time</label>
-                            <input type="time" name="End Time" className="form-control" id="time"/>
+                            <input type="time" name="End Time" className="form-control" id="time" />
                         </div>
                     </div>
                     <div className="mb-3">
@@ -111,24 +111,24 @@ const Order = () => {
                 </form>
             </div>
             <div className="contact-container d-flex pt-5 pb-5 align-items-center justify-content-center container-fluid" style={{backgroundColor:"#2c2825", height:"25vw"}}> 
-                    <div className="d-flex container justify-content-center w-50">
+                    <div className="contact-div d-flex container justify-content-center w-50 me-2 me-sm-0">
                         <h1 className="contact-us" id="contact-us-link">Contact Us</h1>
                     </div>
                     <div className="contact-links-container pt-5 pb-5 ps-5 w-50" style={{borderLeft:"solid 1px #f5e5d0"}}>
                         <div className="mb-3">
                         <a href="mailto:info@giulatogelato.com"> 
-                            <i className="bi bi-envelope-at me-5" style={{fontSize:"1.5rem", color: "#f5e5d0"}}></i>
+                            <i className="bi bi-envelope-at me-3 me-sm-5" style={{fontSize:"1.5rem", color: "#f5e5d0"}}></i>
                         </a>
                             <span className="contact-links" >info@giulatogelato.com</span>
                         </div>
                         <div className="mb-3">
                         <a href="https://www.instagram.com/giulatogelato" target="_blank">
-                            <i className="bi bi-instagram me-5" style={{fontSize:"1.5rem", color: "#f5e5d0"}}></i>
+                            <i className="bi bi-instagram me-3 me-sm-5" style={{fontSize:"1.5rem", color: "#f5e5d0"}}></i>
                         </a>
                             <span className="contact-links" >@giulatogelato</span>
                         </div>
                         <div>
-                            <i className="bi bi-telephone me-5" style={{fontSize:"1.5rem", color: "#f5e5d0"}}></i>
+                            <i className="bi bi-telephone me-3 me-sm-5" style={{fontSize:"1.5rem", color: "#f5e5d0"}}></i>
                             <span className="contact-links" >647-385-9986</span>
                         </div>
                     </div>
