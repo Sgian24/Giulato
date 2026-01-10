@@ -32,7 +32,7 @@ const Menu = () => {
             <Link to="/Order">
                 <button className="order-button btn rounded-4 mb-5" type="button">order now</button>
             </Link>
-            <div className="w-100 d-flex mb-5 justify-content-center container" style={{gap:"10vw"}}>
+            <div className="w-100 d-flex flex-md-row flex-column flex-sm-column align-items-center align-items-sm-center mb-5 justify-content-center container" style={{gap:"10vw"}}>
                 <div>
                     <h2 className="gelato-heading mb-3">Gelato</h2>
                     <ul className="p-0">
@@ -52,8 +52,8 @@ const Menu = () => {
                     <img className="menu-image rounded-circle" src={gelatoOne}  alt="" />
                 </div>
             </div>
-            <div className="w-100 d-flex justify-content-center mb-5 container" style={{gap:"10vw"}}>
-                <div className="menu-image-container">
+            <div className="w-100 d-flex flex-md-row flex-column flex-sm-column align-items-center align-items-sm-center justify-content-center mb-5 container" style={{gap:"10vw"}}>
+                <div className="menu-image-container order-1 order-md-0 order-sm-1">
                     <img className="menu-image rounded-circle" src={gelatoTwo}  alt="" />
                 </div>
                 <div className="">
@@ -68,7 +68,7 @@ const Menu = () => {
                     </ul>
                 </div>
             </div>
-            <div className="w-100 d-flex gap-5 justify-content-center container" style={{marginBottom:"10vw"}}>
+            <div className="w-100 d-flex flex-md-row flex-column flex-sm-column align-items-center align-items-sm-center gap-5 justify-content-center container" style={{marginBottom:"10vw"}}>
                 <div>
                     <h2 className="gelato-heading mb-3">Vegan Flavours <img src={vegan} height="auto" width="50vw" alt="" /></h2>
                     <ul className="p-0">
@@ -84,7 +84,7 @@ const Menu = () => {
                     <img className="menu-image rounded-circle" src={gelatoThree}  alt="" />
                 </div>
             </div>
-            <div className="d-flex flex-column align-items-center" style={{marginBottom:"20vw"}}>
+            <div className="d-flex flex-column align-items-center" style={{marginBottom:"12vw"}}>
                 <h2 className="inquire mb-5">Inquire today about our seasonal flavours</h2>
                 <Link to="/Order/#cart-re">
                     <button className="order-button btn rounded-4 mb-5" type="button">order now</button>

@@ -13,14 +13,14 @@ const Order = () => {
                     <h1 className="popular-flavors" style={{color:"black"}}>Experiences</h1>
                 </div>
                 <h2 className="customize mb-4">Customize your GELATO Experience</h2>
-                <p className="menu-paragraph w-50" style={{color: "black"}}>No matter the size of your event, we offer options to best suit your
+                <p className="order-paragraph w-50">No matter the size of your event, we offer options to best suit your
                 needs and your guests. Please complete the inquiry form for all
                 events, from a small gathering and weddings, to corporate events,
                 and everything in between.</p>
             </div>
             <div className="d-flex flex-column align-items-center p-0 pt-5 mb-5 container-fluid" style={{backgroundColor:"#2c2825"}}>
                 <h1 className="cart-requirements w-75 text-center mb-5" id="cart-re">Cart Requirements</h1>
-                <div className="d-flex container align-items-center">
+                <div className="d-flex flex-column flex-sm-row container align-items-center">
                     <p className="cart-requirements-paragraph w-50 pe-5">Our unique Giulato cart will need a <span className="italicbold">clear
                     path</span>, <u>without stairs</u> to your location of
                     choice. The cart will require a passageway
@@ -30,7 +30,7 @@ const Order = () => {
                      at the chosen venue to prevent any issues or
                     delays.
                     </p>
-                    <div className="w-50 ps-5 mb-5" style={{borderLeft:"solid 1px #f5e5d0"}}>
+                    <div className="cart-list w-50 ps-5 mb-5" style={{borderLeft:"solid 1px #f5e5d0"}}>
                         <p className="ms-3 cart-heading">Giulato Cart Experience Includes:</p>
                         <ul>
                             <li className="cart-li">Our unique Giulato Gelato cart</li>
@@ -51,7 +51,7 @@ const Order = () => {
                     <button className="book-button btn rounded-3 mb-5" type="button">book now</button>
                 </a>
                 <div className="d-flex justify-content-center align-items-center">
-                    <div className="d-flex flex-column align-items-center">
+                    <div className="d-flex flex-column align-items-center mb-4">
                         <h6 style={{fontStyle:"italic", fontFamily:"poppinsRegular", color:"#f5e5d0"}}>Have a smaller event?</h6>
                         <p className="cart-requirements-paragraph w-75 text-center">Giulato offers pre-packaged cups for your smaller events
                         of less than 100 people. Please inquire to learn more!</p>
@@ -110,11 +110,11 @@ const Order = () => {
                     <button type="submit" className="book-button btn rounded-3 mb-5" style={{backgroundColor:"black", color:"#f5e5d0"}}>Submit</button>
                 </form>
             </div>
-            <div className="d-flex pt-5 pb-5 align-items-center justify-content-center container-fluid" style={{backgroundColor:"#2c2825", height:"25vw"}}> 
+            <div className="contact-container d-flex pt-5 pb-5 align-items-center justify-content-center container-fluid" style={{backgroundColor:"#2c2825", height:"25vw"}}> 
                     <div className="d-flex container justify-content-center w-50">
                         <h1 className="contact-us" id="contact-us-link">Contact Us</h1>
                     </div>
-                    <div className="pt-5 pb-5 ps-5 w-50" style={{borderLeft:"solid 1px #f5e5d0"}}>
+                    <div className="contact-links-container pt-5 pb-5 ps-5 w-50" style={{borderLeft:"solid 1px #f5e5d0"}}>
                         <div className="mb-3">
                         <a href="mailto:info@giulatogelato.com"> 
                             <i className="bi bi-envelope-at me-5" style={{fontSize:"1.5rem", color: "#f5e5d0"}}></i>

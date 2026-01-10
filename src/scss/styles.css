@@ -25,17 +25,19 @@
     src: url("..//assets//AbrilFatface-Regular.ttf")
 }
 
+
+
 .nav-fluid-container {
     background-color: #2c2825;
 }
 
 .nav-bar {
     background-color: #2c2825;
-    height: 17vh;
+    height: 7vw;
 }
 
 .navLogo {
-    max-width: 15%;
+    max-width: 12vw;
 }
 
 .nav-link {
@@ -46,13 +48,13 @@
 
 .line {
  border-bottom: solid 1px #dbcdba;
- width: 86%;
+ width: 78%;
 }
 
 .home-container {
  background-color: #2c2825;
  height: auto;
- padding-top: 25vh; 
+ padding-top: 12vw; 
 }
 
 .hero {
@@ -68,7 +70,7 @@
 .logo-dropshadow {
     height: auto;
     position:absolute;
-    top: 45%;
+    top: 19vw;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -305,4 +307,209 @@ ul {
   
 a:focus {
     color: #f5e5d0 !important ;
+}
+
+.order-paragraph {
+    color: black;
+    text-align: center;
+    font-family: poppinsRegular;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1800px) {
+
+    .line {
+        width: 80%;
+       }
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .line {
+        width: 84%;
+       }
+
+    .nav-bar {
+        height: 8vw;
+    }
+
+    .logo-dropshadow {
+        top: 22vw;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .line {
+        width: 83%;
+       }
+    
+       .nav-bar {
+        height: 9vw;
+    }
+
+    .logo-dropshadow {
+        top: 21vw;
+    }
+
+    .hero {
+        background-position: 10% -20px;
+    }
+
+    .banner-container {
+        height: 30vw;
+    }
+
+    .menu-image-container {
+        height: 20vw;
+        width: 20vw;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .nav-bar {
+        height: 9vw;
+    }
+
+    .line {
+        width: 80%;
+       }
+    
+    .home-heading {
+        font-size: 5rem;
+    }
+
+    .order-button {
+        width: 20vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-bar {
+        height: 9vw;
+    }
+
+    .line {
+        display: none;
+       }
+
+    .navLogo {
+    padding-top: 1rem;
+    }
+
+    .home-heading {
+        font-size: 4rem;
+    }
+
+    .order-button {
+        width: 25vw;
+    }
+
+    .menu-image-container {
+        height: 22vw;
+        width: 22vw;
+    }
+
+    .book-button {
+        width: 20vw;
+    }
+
+    .contact-us {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navcart {
+        display: none;
+    }
+
+    .logo-dropshadow {
+        top: 25vw;
+    }
+
+    .home-heading {
+        font-size: 3rem;
+    }
+
+    .order-button {
+        width: 30vw;
+    }
+
+    .gelato-heading {
+        padding: 0 !important;
+        font-size: 4rem;
+    }
+
+    .popular-flavors {
+        font-size: 3rem;
+    }
+
+    .customize {
+        font-size: 3rem;
+    }
+
+    .order-paragraph {
+        width: 75% !important;
+    }
+
+    .contact-us {
+        font-size: 3rem;
+    }
+
+    .contact-container {
+        height: 40vw !important;
+    }
+
+    .contact-links-container {
+        width: 75% !important;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .home-heading {
+        font-size: 2.5rem;
+    }
+
+    .order-button {
+        width: 35vw;
+    }
+    
+    .customize {
+        font-size: 2rem;
+    }
+
+    .book-button {
+        width: 35vw;
+    }
+
+    .cart-requirements-paragraph {
+        text-align: center;
+        margin-bottom: 3rem;
+        width: 75% !important;
+        padding: 0 !important;
+    }
+
+    .cart-list {
+        padding: 0 !important;
+        border-left:none !important;
+        width: 50% !important;
+    }
+
+    .cart-heading {
+        padding: none !important;
+    }
+
+    .contact-us {
+        font-size: 2rem;
+    }
+
+    .contact-links-container {
+        width: 80% !important;
+    }
 }

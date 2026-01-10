@@ -31,23 +31,23 @@ const Home = () => {
                              <button type="button" data-bs-target="#carousel-ind" data-bs-slide-to="4" aria-label="Slide 5"></button>
                              <button type="button" data-bs-target="#carousel-ind" data-bs-slide-to="5" aria-label="Slide 6"></button>
                         </div> 
-                        <div className="carousel-inner rounded-5 " style={{height:"100vh", width:"50vw"}}>
-                            <div style={{height:"100vh"}} className="carousel-item active">
+                        <div className="carousel-container carousel-inner rounded-5 " style={{height:"50vw", width:"50vw"}}>
+                            <div style={{height:"50vw"}} className="carousel-item active">
                                 <img src={carouselOne}  height="100%" className="object-fit-cover rounded-5 w-100" alt="..."></img>
                             </div>
-                            <div style={{height:"100vh"}} className="carousel-item">
+                            <div style={{height:"50vw"}} className="carousel-item">
                                 <img src={gelatoOne}  height="100%"  className="object-fit-cover w-100 rounded-5" alt="..."></img>
                             </div>
-                            <div style={{height:"100vh"}} className="carousel-item">
+                            <div style={{height:"50vw"}} className="carousel-item">
                                 <img src={gelatoTwo}  height="100%"  className="object-fit-cover w-100 rounded-5" alt="..."></img>
                             </div>
-                            <div style={{height:"100vh"}} className="carousel-item">
+                            <div style={{height:"50vw"}} className="carousel-item">
                                 <img src={gelatoThree}  height="100%"  className="object-fit-cover w-100 rounded-5" alt="..."></img>
                             </div>
-                            <div style={{height:"100vh"}} className="carousel-item">
+                            <div style={{height:"50vw"}} className="carousel-item">
                                 <img src={gelatoFour}  height="100%"  className="object-fit-cover w-100 rounded-5" alt="..."></img>
                             </div>
-                            <div style={{height:"100vh"}} className="carousel-item">
+                            <div style={{height:"50vw"}} className="carousel-item">
                                 <img src={gelatoFive} style={{objectPosition:"50% 90%"}}  height="100%"  className="object-fit-cover w-100 rounded-5" alt="..."></img>
                             </div>
                         </div>
