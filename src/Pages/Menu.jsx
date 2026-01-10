@@ -6,6 +6,7 @@ import vegan from "..//assets/natural.png";
 import natural from "..//assets/vegan.png";
 import gelatoThree from "..//assets/Vegan_Pic.png";
 import Footer from "..//Footer"
+import { Link } from "react-router-dom";
 
 const Menu = () => {
     return (
@@ -28,7 +29,9 @@ const Menu = () => {
             </p>
             <p className="menu-paragraph w-50 mb-5">We offer a wide range of flavors for gelato, sorbetto and vegan gelato.
             Below, are some of our more popular flavors:</p>
-            <button className="order-button btn rounded-4 mb-5" type="button">order now</button>
+            <Link to="/Giulato/Order">
+                <button className="order-button btn rounded-4 mb-5" type="button">order now</button>
+            </Link>
             <div className="w-100 d-flex mb-5 justify-content-center container" style={{gap:"10vw"}}>
                 <div>
                     <h2 className="gelato-heading mb-3">Gelato</h2>
@@ -83,7 +86,9 @@ const Menu = () => {
             </div>
             <div className="d-flex flex-column align-items-center" style={{marginBottom:"20vw"}}>
                 <h2 className="inquire mb-5">Inquire today about our seasonal flavours</h2>
-                <button className="order-button btn rounded-4 mb-5" type="button">order now</button>
+                <Link to="/Giulato/Order/#cart-re">
+                    <button className="order-button btn rounded-4 mb-5" type="button">order now</button>
+                </Link>
             </div>
             <Footer />
         </div>

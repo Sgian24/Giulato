@@ -11,7 +11,6 @@ const Footer = () => {
                     Developed by Sunny Gian</span></p>
                 </div>
                 <div className="d-flex align-items-center">
-                    <a href="https://www.google.ca" target="_blank"><i className="bi bi-facebook me-3" style={{fontSize:"1.5rem", color: "black"}}></i></a>
                     <a href="https://www.instagram.com/giulatogelato" target="_blank"><i className="bi bi-instagram me-5" style={{fontSize:"1.5rem", color: "black"}}></i></a>
                     <img className="footer-logo " src={logo} alt="" />
                 </div>
