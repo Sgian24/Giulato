@@ -1,6 +1,6 @@
 import Com from "..//component";
 import Footer from "..//Footer";
-import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Order = () => {
 
@@ -47,7 +47,9 @@ const Order = () => {
                         </ul>
                     </div>
                 </div>
-                <button className="book-button btn rounded-3 mb-5" type="button">book now</button>
+                <a href="#inquire">
+                    <button className="book-button btn rounded-3 mb-5" type="button">book now</button>
+                </a>
                 <div className="d-flex justify-content-center align-items-center">
                     <div className="d-flex flex-column align-items-center">
                         <h6 style={{fontStyle:"italic", fontFamily:"poppinsRegular", color:"#f5e5d0"}}>Have a smaller event?</h6>
@@ -56,11 +58,11 @@ const Order = () => {
                     </div>
                 </div>
             </div>
-            <div className="d-flex flex-column align-items-start justify-content-center container" style={{backgroundColor:"#f5e5d0"}}> 
-                <div className="left-divider mb-4">
-                    <h1 className="popular-flavors" style={{color:"black"}}>Inquire</h1>
+            <div className="d-flex flex-column align-items-center justify-content-center container" style={{backgroundColor:"#f5e5d0"}}> 
+                <div className="divider-black mb-4">
+                    <h1 className="popular-flavors" id="inquire" style={{color:"black"}}>Inquire</h1>
                 </div>
-                <form target="_blank" className="mb-3" action="https://formsubmit.co/sgian08@gmail.com" method="POST">
+                <form target="_blank" className="mb-3" action="https://formsubmit.co/info@giulatogelato.com" method="POST">
                     <div className="d-flex gap-5 mb-3">
                     <div>
                         <label htmlFor="name" className="form-label">First Name</label>
@@ -104,7 +106,7 @@ const Order = () => {
                                 <option value="Other">Other</option>
                             </select>
                         </div>                
-                    <textarea type="text" name="Details" className="form-control mb-3" rows="7" placeholder="Please provide additional details of your event."/>
+                    <textarea type="text" name="Details" className="form-control mb-5" rows="7" placeholder="Please provide additional details of your event."/>
                     <button type="submit" className="book-button btn rounded-3 mb-5" style={{backgroundColor:"black", color:"#f5e5d0"}}>Submit</button>
                 </form>
             </div>
