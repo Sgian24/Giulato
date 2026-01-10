@@ -18,9 +18,9 @@ const Com = () => {
           <div className="nav-bar container d-flex justify-content-between align-items-center pt-4 pe-4 ps-4">
             <img className="navLogo" src={GuilatoLogo} alt="" height="auto" />
             <div className="d-flex link-container align-items-center justify-content-end pt-3 gap-5">
-                <Link to="/Giulato/menu" className="nav-link me-5">menu</Link>
-                <Link to="/Giulato/Order" className="nav-link me-5">order</Link>
-                <Link to="/Giulato/Order/#contact-us-link" className="nav-link">contact</Link>
+                <Link to="/menu" className="nav-link me-5">menu</Link>
+                <Link to="/Order" className="nav-link me-5">order</Link>
+                <Link to="/Order/#contact-us-link" className="nav-link">contact</Link>
                 <img className="" src={Cart} height="auto" width="9%" alt="" />
             </div>
           </div>
