@@ -35,15 +35,15 @@ const Order = () => {
                         <ul>
                             <li className="cart-li">Our unique Giulato Gelato cart</li>
                             <li  className="cart-li">Transportation, set-up and teardown</li>
-                            <li  className="cart-li">2 hours of service</li>
+                            <li  className="cart-li">Up to 2 hours of service</li>
                             <li  className="cart-li">Minimum of 1 professional live server</li>
                             <li  className="cart-li">Choice of up to 6 flavors (depending on
                              size of event)</li>
                             <li  className="cart-li">Served in our signature Giulato cups, with
                             a cookie, spoon and napkin</li>
-                            <li  className="cart-li">Customized cups are available for a fee.</li>
+                            <li  className="cart-li">Customized cups are available for a fee</li>
                             <li  className="cart-li"> Additional transportation fees may be
-                            applicable to events outside of the GTA.</li>
+                            applicable to events outside of the GTA</li>
                         </ul>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Order = () => {
                     <div className="d-flex flex-column align-items-center mb-4">
                         <h6 style={{fontStyle:"italic", fontFamily:"poppinsRegular", color:"#f5e5d0"}}>Have a smaller event?</h6>
                         <p className="cart-requirements-paragraph w-75 text-center">Giulato offers pre-packaged cups for your smaller events
-                        of less than 100 people. Please inquire to learn more!</p>
+                        of 50 guests or less. Please inquire to learn more!</p>
                     </div>
                 </div>
             </div>

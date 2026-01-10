@@ -569,7 +569,6 @@ a:focus {
     font-size: 1rem;
    }
 
-
    .input-container, .input-container-two {
     flex-direction: column;
     gap: 0 !important; 
@@ -582,4 +581,19 @@ a:focus {
    .guests {
     margin-bottom: 1rem;
    }
+
+   .footer-logo {
+    max-width: 7rem;
+   }
+
+}
+
+@media only screen and (max-width: 370px) {
+    .contact-links {
+        font-size: 0.8rem;
+    }
+
+    .contact-container {
+        height: 55vw !important;
+       }
 }
