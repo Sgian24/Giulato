@@ -588,7 +588,7 @@ a:focus {
 
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 376px) {
     .contact-links {
         font-size: 0.8rem;
     }
