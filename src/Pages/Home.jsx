@@ -19,7 +19,7 @@ const Home = () => {
                     <h1 className="home-heading mb-3">Let Us Sweeten Your Next Event!</h1>
                     <p className="home-paragraph w-50 pt-3">Our unique Giulato Gelato cart brings both the feel
                         and taste of elegance to any event. Select from a
-                        wide range of gelato and sorbetto flavors and let us
+                        wide range of gelato and sorbetto flavours and let us
                         take care of the rest!</p>
                     <div id="carousel-ind" className="carousel slide mb-5" data-bs-ride="carousel">
                         <div className="carousel-indicators">

@@ -37,7 +37,7 @@ const Order = () => {
                             <li  className="cart-li">Transportation, set-up and teardown</li>
                             <li  className="cart-li">Up to 2 hours of service</li>
                             <li  className="cart-li">Minimum of 1 professional live server</li>
-                            <li  className="cart-li">Choice of up to 6 flavors (depending on
+                            <li  className="cart-li">Choice of up to 6 flavours (depending on
                              size of event)</li>
                             <li  className="cart-li">Served in our signature Giulato cups, with
                             a cookie, spoon and napkin</li>
@@ -66,17 +66,17 @@ const Order = () => {
                     <div className="input-container d-flex gap-5 mb-3">
                     <div>
                         <label htmlFor="name" className="form-label">First Name</label>
-                        <input type="text" name="Name" className="form-control first-name" id="name" placeholder="name" required/>
+                        <input type="text" name="Name" className="form-control first-name" id="name" placeholder="Name" required/>
                     </div>
                     <div>
                         <label htmlFor="last-name" className="form-label">Last Name</label>
-                        <input type="text" name="Last name" className="form-control" id="last-name" placeholder="surname"/>
+                        <input type="text" name="Last name" className="form-control" id="last-name" placeholder="Surname"/>
                     </div>
                     </div>
                     <label htmlFor="email" className="form-label">Email</label>
-                    <input type="email" name="Email" className="form-control mb-3" id="email" placeholder="email address" required/>
+                    <input type="email" name="Email" className="form-control mb-3" id="email" placeholder="Email Address" required/>
                     <label htmlFor="date" className="form-label">Event Date</label>
-                    <input type="date" name="Date" className="form-control mb-3" id="date" placeholder="surname" />
+                    <input type="date" name="Date" className="form-control mb-3" id="date" />
                     <div className="input-container-two d-flex gap-5 mb-3">
                         <div>
                             <label htmlFor="number-of-guests" className="form-label">Number of Guests</label>
@@ -91,6 +91,8 @@ const Order = () => {
                             <input type="time" name="End Time" className="form-control" id="time" />
                         </div>
                     </div>
+                    <label htmlFor="location" className="form-label">Venue/Address</label>
+                    <input type="text" name="Venue/Address" className="form-control mb-3" id="location" placeholder="Venue/Address" />
                     <div className="mb-3">
                             <label htmlFor="event-type" className="form-label">Type of Event</label>
                             <select type="time" name="Type of Event" className="form-select" id="event-type">

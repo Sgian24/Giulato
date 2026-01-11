@@ -15,20 +15,20 @@ const Menu = () => {
         <div className="d-flex flex-column align-items-center p-0 container-fluid" style={{backgroundColor:"#2c2825"}}>
             <div className="d-flex flex-column justify-content-center menu-container container"> 
                 <div className="divider mb-4">
-                    <h1 className="popular-flavors">Popular Flavors</h1>
+                    <h1 className="popular-flavors">Popular Flavours</h1>
                 </div>
             </div>
             <div className="banner-container mb-5">
                 <img className="banner" style={{objectFit: "cover"}} src={banner} width="100%" alt="" />
             </div>
             <p className="menu-paragraph w-50">
-            Your choice of gelato flavors are made with milk, and sweetened with natural
-            ingredients. The result is a rich flavor, without any artificial colours or flavouring.
+            Your choice of gelato flavours are made with milk, and sweetened with natural
+            ingredients. The result is a rich flavour, without any artificial colours or flavouring.
             We offer 100% dairy-free, and vegan friendly sorbettos, as well as vegan gelato, 
             made with rice milk.
             </p>
-            <p className="menu-paragraph w-50 mb-5">We offer a wide range of flavors for gelato, sorbetto and vegan gelato.
-            Below, are some of our more popular flavors:</p>
+            <p className="menu-paragraph w-50 mb-5">We offer a wide range of flavours for gelato, sorbetto and vegan gelato.
+            Below, are some of our more popular flavours:</p>
             <Link to="/Order">
                 <button className="order-button btn rounded-4 mb-5" type="button">order now</button>
             </Link>
@@ -40,7 +40,7 @@ const Menu = () => {
                         <li>Blueberry Lavender <img className="ms-2" src={natural} height="auto" width="20vw" alt="" /></li>
                         <li>Caffe <img className="ms-2" src={natural} height="auto" width="20vw" alt="" /></li>
                         <li>Nocciola</li>
-                        <li>Pistaccio</li>
+                        <li>Pistacchio</li>
                         <li>Tiramisu</li>
                         <li>Salted Chocolate Peanut Butter</li>
                         <li>Stracciatella</li>
@@ -57,7 +57,7 @@ const Menu = () => {
                     <img className="menu-image rounded-circle" src={gelatoTwo}  alt="" />
                 </div>
                 <div className="">
-                    <h2 className="gelato-heading mb-3" style={{paddingLeft:"9rem"}}>Sorbetta</h2>
+                    <h2 className="gelato-heading mb-3" style={{paddingLeft:"9rem"}}>Sorbetto</h2>
                     <ul className="reverse-list">
                         <li>Limone</li>
                         <li>Mango</li>
@@ -77,7 +77,7 @@ const Menu = () => {
                         <li>Coconut</li>
                         <li>Maple</li>
                         <li>Peanut Butter & Jelly</li>
-                        <li>Pistaccio</li>
+                        <li>Pistacchio</li>
                     </ul>
                 </div>
                 <div className="menu-image-container">
