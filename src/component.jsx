@@ -31,9 +31,9 @@ const Com = () => {
           <div className="nav-bar container d-flex justify-content-between align-items-center pt-4 pe-4 ps-4">
            <a href="/"><img className="navLogo" src={GuilatoLogo} alt="" height="auto" /></a>
             <div className="d-flex link-container align-items-center justify-content-end pt-3 gap-0 gap-md-5">
-                <Link to="/menu" className="nav-link me-5">Flavours</Link>
-                <Link to="/Order" className="nav-link me-5">Packages</Link>
-                <Link to="/Order/#inquire" className="nav-link">contact</Link>
+                <Link to="/flavours" className="nav-link me-5">Flavours</Link>
+                <Link to="/packages" className="nav-link me-5">Packages</Link>
+                <Link to="/packages/#inquire" className="nav-link">contact</Link>
                 <img className="navcart" src={Cart} height="auto" width="9%" alt="" />
             </div>
           </div>
