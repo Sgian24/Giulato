@@ -28,7 +28,7 @@ const Menu = () => {
             made with rice milk.
             </p>
             <p className="menu-paragraph w-50 mb-5">We offer a wide range of flavours for gelato, sorbetto and vegan gelato.
-            Below, are some of our more popular flavours:</p>
+            Below are some of our more popular flavours:</p>
             <Link to="/Order">
                 <button className="order-button btn rounded-4 mb-5" type="button">order now</button>
             </Link>

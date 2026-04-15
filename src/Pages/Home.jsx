@@ -7,6 +7,7 @@ import gelatoThree from "..//assets/gelato-mockup3.png";
 import gelatoFour from "..//assets/gelato-mockup4.jpg";
 import gelatoFive from "..//assets/gelato-mockup5.jpg";
 import Footer from "..//Footer";
+import vid from "..//assets/giulatoedited.mp4";
 
 const Home = () => {
     return (
@@ -21,7 +22,7 @@ const Home = () => {
                         and taste of elegance to any event. Select from a
                         wide range of gelato and sorbetto flavours and let us
                         take care of the rest!</p>
-                    <div id="carousel-ind" className="carousel slide mb-5" data-bs-ride="carousel">
+                    {/*<div id="carousel-ind" className="carousel slide mb-5" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carousel-ind" data-bs-slide-to="0" 
                             className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -59,7 +60,10 @@ const Home = () => {
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Next</span>
                         </button>
-                    </div>
+    </div>*/}
+                <video className="mb-5"  autoPlay muted loop controls width="300">
+                    <source src={vid} type="video/mp4" />
+                </video>
                 </div>
             </div>
         </div> 

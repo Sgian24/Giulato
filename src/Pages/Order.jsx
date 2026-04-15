@@ -1,6 +1,8 @@
 import Com from "..//component";
 import Footer from "..//Footer";
 import { Link } from "react-router-dom";
+import deluxe from "..//assets/deluxe.jpg";
+import mini from "..//assets/mini.jpg";
 
 const Order = () => {
 
@@ -19,9 +21,34 @@ const Order = () => {
                 and everything in between.</p>
             </div>
             <div className="d-flex flex-column align-items-center p-0 pt-5 mb-5 container-fluid" style={{backgroundColor:"#2c2825"}}>
-                <h1 className="cart-requirements w-75 text-center mb-5" id="cart-re">Cart Requirements</h1>
-                <div className="d-flex flex-column flex-sm-row container align-items-center">
-                    <p className="cart-requirements-paragraph w-50 pe-5">Our unique Giulato cart will need a <span className="italicbold">clear
+                <h1 className="cart-requirements w-75 text-center" style={{marginBottom:"5rem"}} id="cart-re">Packages</h1>
+                <div className="d-flex flex-column flex-md-row container align-items-center align-items-sm-center align-items-md-start mb-5">
+                  
+                  <div className="d-flex flex-column ms-md-5 align-items-center align-items-sm-center align-items-md-start w-50">  
+                          <p className="cart-heading text-left">The Deluxe Giulato Cart </p>
+                          <p className="cart-requirements-paragraph">Recommended for events of 150 or more guests</p>
+                          <img className="cart-image" src={deluxe} alt="" />  
+                   
+                    </div>
+                    
+                    <div className="cart-list w-50 ps-md-5 mb-md-5" style={{marginTop:"5rem"}}>
+                        <p className="ms-md-3 cart-heading">The Deluxe Giulato Cart Includes:</p>
+                        <ul>
+                            <li  className="cart-li">Transportation, set-up and teardown</li>
+                            <li  className="cart-li">Up to 2 hours of service</li>
+                            <li  className="cart-li">2 professional servers</li>
+                            <li  className="cart-li">Display of up to 8 flavors </li>
+                            <li  className="cart-li">Served in our signature Giulato cups, with
+                            a cookie, spoon and napkin</li>
+                            <li  className="cart-li">Customized cups are available for a fee</li>
+                            <li  className="cart-li"> Additional transportation fees may be
+                            applicable to events outside of the GTA</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <p className="cart-requirements-paragraph w-50 mb-5 text-center">                     
+                    Please Note: Our Deluxe Giulato cart will need a <span className="italicbold">clear
                     path</span>, <u>without stairs</u> to your location of
                     choice. The cart will require a passageway
                     that is <span className="italicbold">36 inches wide.</span> <br /> <br />
@@ -30,15 +57,23 @@ const Order = () => {
                      at the chosen venue to prevent any issues or
                     delays.
                     </p>
-                    <div className="cart-list w-50 ps-5 mb-5" style={{borderLeft:"solid 1px #f5e5d0"}}>
-                        <p className="ms-3 cart-heading">Giulato Cart Experience Includes:</p>
+                    <div className="d-flex flex-column flex-md-row container align-items-center align-items-sm-center align-items-md-start mb-5">
+                  
+                  <div className="d-flex flex-column ms-md-5 align-items-center align-items-sm-center align-items-md-start w-50">  
+                          <p className="cart-heading text-left">The Mini Giulato Cart
+</p>
+                          <p className="cart-requirements-paragraph">Recommended for groups between 50-150 guests</p>
+                          <img className="cart-image" src={mini} alt="" />  
+                   
+                    </div>
+                    
+                    <div className="cart-list w-50 ps-md-5 mb-md-5" style={{marginTop:"5rem"}}>
+                        <p className="ms-md-3 cart-heading">The Mini Giulato Cart Includes:</p>
                         <ul>
-                            <li className="cart-li">Our unique Giulato Gelato cart</li>
                             <li  className="cart-li">Transportation, set-up and teardown</li>
                             <li  className="cart-li">Up to 2 hours of service</li>
-                            <li  className="cart-li">Minimum of 1 professional live server</li>
-                            <li  className="cart-li">Choice of up to 6 flavours (depending on
-                             size of event)</li>
+                            <li  className="cart-li">1 professional server</li>
+                            <li  className="cart-li">Display of up to 4 flavors </li>
                             <li  className="cart-li">Served in our signature Giulato cups, with
                             a cookie, spoon and napkin</li>
                             <li  className="cart-li">Customized cups are available for a fee</li>
@@ -46,18 +81,37 @@ const Order = () => {
                             applicable to events outside of the GTA</li>
                         </ul>
                     </div>
+                    
                 </div>
+                <p className="cart-requirements-paragraph w-50 mb-5 text-center">                     
+                    Please ensure that an unobstructed path is
+                    available, with <span className="italicbold">access to an electrical outlet </span>
+                     at the chosen venue to prevent any issues or
+                    delays.
+                    </p>
+                    
                 <a href="#inquire">
                     <button className="book-button btn rounded-3 mb-5" type="button">book now</button>
                 </a>
                 <div className="d-flex justify-content-center align-items-center">
                     <div className="d-flex flex-column align-items-center mb-4">
-                        <h6 style={{fontStyle:"italic", fontFamily:"poppinsRegular", color:"#f5e5d0"}}>Have a smaller event?</h6>
+                        <h6 className="mb-3" style={{fontStyle:"italic", fontFamily:"poppinsRegular", color:"#f5e5d0"}}>Have a smaller event?</h6>
                         <p className="cart-requirements-paragraph w-75 text-center">Giulato offers pre-packaged cups for your smaller events
-                        of 50 guests or less. Please inquire to learn more!</p>
+                        of less than 50 people. Please inquire to learn more!</p>
+                    </div>
+                </div>
+                <div className="d-flex justify-content-center align-items-center">
+                    <div className="d-flex flex-column align-items-center mb-4">
+                        <h6 className="mb-3 w-50 text-center" style={{fontStyle:"italic", fontFamily:"poppinsRegular", color:"#f5e5d0"}}>Are you interested in elevating your community or corporate event with Giulato Gelato?</h6>
+                        <p className="cart-requirements-paragraph w-50 text-center">
+                        We offer a variety of customizable packages designed to perfectly suit larger groups and special events. Please complete an inquiry form to receive our 
+                        vendor package and learn how we can tailor a Giulato experience for your guests.
+
+                        </p>
                     </div>
                 </div>
             </div>
+            
             <div className="d-flex flex-column align-items-center justify-content-center container" style={{backgroundColor:"#f5e5d0"}}> 
                 <div className="divider-black mb-4">
                     <h1 className="popular-flavors" id="inquire" style={{color:"black"}}>Inquire</h1>
@@ -110,6 +164,7 @@ const Order = () => {
                         </div>                
                     <textarea type="text" name="Details" className="form-control mb-5" rows="7" placeholder="Please provide additional details of your event."/>
                     <button type="submit" className="book-button btn rounded-3 mb-5" style={{backgroundColor:"black", color:"#f5e5d0"}}>Submit</button>
+                    <p className="form-thanks text-center" style={{color:"black"}}>Thank you for reaching out! We aim to reply to all inquiries within 2 business days.</p>
                 </form>
             </div>
             <div className="contact-container d-flex pt-5 pb-5 align-items-center justify-content-center container-fluid" style={{backgroundColor:"#2c2825", height:"25vw"}}> 
