@@ -29,7 +29,7 @@ const Menu = () => {
             </p>
             <p className="menu-paragraph w-50 mb-5">We offer a wide range of flavours for gelato, sorbetto and vegan gelato.
             Below are some of our more popular flavours:</p>
-            <Link to="/Order">
+            <Link to="/Packages/#inquire">
                 <button className="order-button btn rounded-4 mb-5" type="button">order now</button>
             </Link>
             <div className="w-100 d-flex flex-md-row flex-column flex-sm-column align-items-center align-items-sm-center mb-5 justify-content-center container" style={{gap:"10vw"}}>
@@ -86,7 +86,7 @@ const Menu = () => {
             </div>
             <div className="d-flex flex-column align-items-center" style={{marginBottom:"12vw"}}>
                 <h2 className="inquire mb-5 text-center">Inquire today about our seasonal flavours</h2>
-                <Link to="/Order/#cart-re">
+                <Link to="/Packages/#inquire">
                     <button className="order-button btn rounded-4 mb-5" type="button">order now</button>
                 </Link>
             </div>
